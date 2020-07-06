@@ -1,0 +1,163 @@
+*{
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+html, body{
+  margin:0;
+  padding:0;
+  width:100%;
+}
+
+h1{
+  font-size: 65px;
+}
+
+h2{
+  font-size: 50px;
+}
+
+h3{
+  font-size: 30px;
+}
+
+h1{
+  color: #002A5D;
+  font-weight: bold;
+}
+
+h3{
+  color: #f9d27a;
+}
+
+#ana-intro{
+  left: 55%;
+  opacity: 0;
+  position: absolute;
+  top: -100%;
+}
+
+#ana-p1, #ana2-p3, #ana3-p3, #dinero-p3, #juan2-p4, #nina2-p3, #nino2-p3, #nubes-p3, #nubes-p4, #nubes-p7, #texto-p8{
+  opacity: 0;
+}
+
+#ana-p3, #ana-p7, #cerdito-p5, #ciudad-p7, #donadora-p7, #donadores-p6, #empresario-p4, #escritorio-p5, #juan1-p4, #juan-p5, #juan-p6, #juan-p7, #moderno-p4, #monedas1-p5, #monedas2-p5, #monedas3-p5, #nino-p3, #nina-p3, #papeles1-p5, #papeles2-p5, #personas1-p6, #personas2-p6, #p1-inner, #telefono-p5{
+  margin-top: -100%;
+}
+
+#ana-p1, #ciudad-p3, #donador-p7, #emo-p4, #empresaria-p4, #esposo-p3, #ninos-p7, #personas-p7{
+  padding-top: 100%;
+}
+
+#nubes-p3, #nubes-p4, #nubes-p7{
+  width: 95%;
+}
+
+#p1 img{
+  width: 480px;
+}
+
+#p1-inner, #p8-inner{
+  align-self: center;
+}
+
+#p1, #p2, #p3, #p4, #p5, #p6, #p7, #p8{
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
+
+#scroll{
+  width: 32px !important;
+}
+
+#scroll-indicator, #no-scroll-indicator{
+  bottom: 15px;
+  opacity: 0;
+  position: fixed;
+  right: 15px;
+  width: 64px !important;
+}
+
+#texto1-p3, #texto2-p3, #texto1-p5, #texto1-p6, #texto1-p7{
+  text-align: center;
+  width: 100%
+}
+
+#texto1-p4, #texto1-p5, #texto1-p6, #texto2-p4, #texto1-p7{
+  font-size: 40px;
+}
+
+#texto3-p3, #texto1-p4{
+  left: 18%;
+}
+
+#texto4-p3, #texto2-p4{
+  right: 18%;
+}
+
+#texto1-p3, #texto2-p3, #texto2-p4, #texto3-p3, #texto4-p3, #texto1-p4, #texto1-p5, #texto1-p6, #texto1-p7{
+  color: #ddd;
+  opacity: 0;
+  position: absolute;
+  top: -100%;
+}
+
+.cel{
+  position: absolute;
+}
+
+.container-fluid{
+  position: relative;
+}
+
+.inner-scene{
+  height: 100%;
+  position: relative;
+  width: 100%;
+}
+
+.letra-azul{
+  color: #002A5D;
+}
+
+.letra-gris{
+  color: #232323 !important;
+}
+
+.no-padding{
+  padding: 0;
+}
+
+.scene{
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+@media only screen and (max-width : 768px) {
+  h1{
+    font-size: 50px;
+  }
+
+  h2{
+    font-size: 40px;
+  }
+  h3{
+    font-size: 27px;
+    text-align: center !important;
+  }
+  #ana-intro{
+    left: 0;
+    text-align: center;
+    width: 100%;
+  }
+  #texto1-p3, #texto2-p3, #texto3-p3, #texto4-p3, #texto1-p4, #texto2-p4, #texto1-p5, #texto1-p6, #texto1-p7{
+    font-size: 28px !important;
+    left: 0;
+    margin-top: 200px;
+    text-align: center;
+    width: 100%;
+  }
+}
